@@ -1,3 +1,4 @@
+package Bomba;
 public class BombaCombustivel {
     private String tipoCombustivel;
     private double valorLitro;
@@ -15,7 +16,7 @@ public class BombaCombustivel {
             this.quantidadeCombustivel -= litros;
             return litros;
         } else {
-            System.out.println("Quantidade de combustível insuficiente na bomba.");
+            System.out.println("Combustível insuficiente na bomba.");
             return 0;
         }
     }
@@ -26,7 +27,7 @@ public class BombaCombustivel {
             this.quantidadeCombustivel -= litros;
             return valor;
         } else {
-            System.out.println("Quantidade de combustível insuficiente na bomba.");
+            System.out.println("Combustível insuficiente na bomba.");
             return 0;
         }
     }
@@ -41,5 +42,17 @@ public class BombaCombustivel {
 
     public void alterarQuantidadeCombustivel(double novaQuantidade) {
         this.quantidadeCombustivel = novaQuantidade;
+    }
+
+    public String getTipoCombustivel() {
+        return this.tipoCombustivel;
+    }
+
+    public double getValorLitro() {
+        return this.valorLitro;
+    }
+
+    public double getQuantidadeCombustivel() {
+        return this.quantidadeCombustivel;
     }
 }

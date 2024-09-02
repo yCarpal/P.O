@@ -1,3 +1,4 @@
+package Bolinha;
 public class Bola {
     private String cor;
     private double circunferencia;
@@ -17,11 +18,11 @@ public class Bola {
         return this.cor;
     }
 
-    public double Circunferencia() {
+    public double getCircunferencia() {
         return this.circunferencia;
     }
 
-    public String Material() {
+    public String getMaterial() {
         return this.material;
     }
 }
