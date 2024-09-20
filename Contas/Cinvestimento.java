@@ -1,10 +1,10 @@
 import java.util.*;
-public class CInvestimento extends CCorrente {
+public class Cinvestimento extends CCorrente {
 
     private int diainvestimento;
     private int periodo;
 
-public CInvestimento(int num, double sal, String cli, int dinv, int per) {
+public Cinvestimento(int num, double sal, String cli, int dinv, int per) {
     super(num, sal, cli);
     this.diainvestimento = dinv;
     this.periodo = per;

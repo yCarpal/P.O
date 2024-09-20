@@ -1,8 +1,8 @@
-public class CPoupanca extends CCorrente {
+public class Cpoupanca extends CCorrente {
 
 private double saldominimo;
 
-public CPoupanca(int num, double sal, String cli, double salmin) {
+public Cpoupanca(int num, double sal, String cli, double salmin) {
     super(num, sal, cli);
     this.saldominimo = salmin;
 }

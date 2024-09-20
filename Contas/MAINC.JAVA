@@ -1,5 +1,6 @@
+import java.util.*;
 
-public class MAINC {
+public class Contas {
     public static void main(String[] args) {
         CPoupanca conta3 = new CPoupanca(3,1000, "Claudia",1000);
         CInvestimento conta4 = new CInvestimento(4, 1000, "Cida", 1, 12);
