@@ -19,7 +19,7 @@ public void debitar(double valor){
 }
 
 public void atualizarSaldo(){
-    super.setSaldo((super.getSaldo() + (this.saldominimo * 0.05));
+    super.setSaldo(super.getSaldo() + (this.saldominimo * 0.05));
     this.saldominimo = super.getSaldo();
 
 }

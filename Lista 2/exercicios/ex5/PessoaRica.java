@@ -1,5 +1,5 @@
 package ex5;
-class PessoaRica extends Pessoa {
+public class PessoaRica extends Pessoa {
     public PessoaRica(String nome) {
         super(nome);
     }
