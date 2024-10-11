@@ -2,7 +2,7 @@ class CEspecial extends CCorrente {
 private int limite;
 
 public CEspecial(int num, double sal, String cli, int lim) {
-    super(num, sal, cli);
+    super(numero, saldo, cliente);
     this.limite = lim;
 }
 
